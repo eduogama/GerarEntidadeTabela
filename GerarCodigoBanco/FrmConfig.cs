@@ -23,6 +23,7 @@ namespace GerarCodigoBanco
             config.NamespaceDominio = TxtNamespaceDominio.Text;
             config.NamespaceRepositorio = TxtNamespaceRepositorio.Text;
             config.Sistema = TxtSistema.Text;
+            config.NamespaceService = TxtNamespaceService.Text;
 
             List<Config> configs = new List<Config>();
             configs.Add(config);
@@ -44,6 +45,7 @@ namespace GerarCodigoBanco
             TxtNamespaceDominio.Text = config.NamespaceDominio;
             TxtNamespaceRepositorio.Text = config.NamespaceRepositorio;
             TxtSistema.Text = config.Sistema;
+            TxtNamespaceService.Text = config.NamespaceService;
         }
     }
 }

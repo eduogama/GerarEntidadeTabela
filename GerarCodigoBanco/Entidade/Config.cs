@@ -15,5 +15,8 @@ namespace GerarCodigoBanco.Entidade
 
         [JsonPropertyName("namespaceRepositorio")]
         public string NamespaceRepositorio { get; set; }
+
+        [JsonPropertyName("namespaceService")]
+        public string NamespaceService { get; set; }
     }
 }

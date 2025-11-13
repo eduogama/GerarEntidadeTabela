@@ -1,17 +1,18 @@
-using GerarCodigoBanco.Entidade;
+﻿using GerarCodigoBanco.Entidade;
 using GerarCodigoBanco.Repository;
 using GerarCodigoBanco.Uitls;
 
-namespace GerarEntidadeTabela
+namespace GerarCodigoBanco
 {
-    public partial class FrmDomain : Form
+    public partial class FrmContext : Form
     {
-        public FrmDomain()
+        public FrmContext()
         {
             InitializeComponent();
         }
 
-        private void FrmGerar_Load(object sender, EventArgs e)
+        private List<Tabelas> tabelas;
+        private void FrmContext_Load(object sender, EventArgs e)
         {
             Config config = ClsConfig.Obter();
             TxtBancoDados.Text = config.BancoDados;
@@ -23,7 +24,7 @@ namespace GerarEntidadeTabela
         {
             if (TxtBancoDados.Text != "")
             {
-                List<Tabelas> tabelas = ClsBanco.ObterTabelas(TxtBancoDados.Text);
+                tabelas = ClsBanco.ObterTabelas(TxtBancoDados.Text);
                 CarregarListView(tabelas);
                 MessageBox.Show("Tabela Carregas com Sucesso");
             }
@@ -39,33 +40,7 @@ namespace GerarEntidadeTabela
             {
                 if (TxtNameSpace.Text != "")
                 {
-                    ClsGerar.Entidade(TxtBancoDados.Text, TxtNameSpace.Text, LvwTabelas.SelectedItems[0].Text);
-                    MessageBox.Show("Classe Gerada com Sucesso");
-                }
-                else
-                {
-                    MessageBox.Show("Preencha todos os campos");
-                }
-            }
-            else
-            {
-                MessageBox.Show("Nenhuma tabela carregada");
-            }
-        }
-
-        private void BtnTodasTabelas_Click(object sender, EventArgs e)
-        {
-            if (LvwTabelas.SelectedItems.Count > 0)
-            {
-                if (TxtNameSpace.Text != "")
-                {
-                    foreach (ListViewItem item in LvwTabelas.Items)
-                    {
-                        for (int i = 0; i < item.SubItems.Count; i++)
-                        {
-                            ClsGerar.Entidade(TxtBancoDados.Text, TxtNameSpace.Text, item.SubItems[i].Text);
-                        }
-                    }
+                    ClsGerar.DbContext(TxtNameSpace.Text, tabelas);
                     MessageBox.Show("Classe Gerada com Sucesso");
                 }
                 else

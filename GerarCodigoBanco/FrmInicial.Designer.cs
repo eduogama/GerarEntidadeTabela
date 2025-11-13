@@ -34,12 +34,14 @@
             configurationToolStripMenuItem = new ToolStripMenuItem();
             domainToolStripMenuItem = new ToolStripMenuItem();
             repositoryToolStripMenuItem = new ToolStripMenuItem();
+            servicesToolStripMenuItem = new ToolStripMenuItem();
+            contextToolStripMenuItem = new ToolStripMenuItem();
             Menu.SuspendLayout();
             SuspendLayout();
             // 
             // Menu
             // 
-            Menu.Items.AddRange(new ToolStripItem[] { sairToolStripMenuItem, configurationToolStripMenuItem, domainToolStripMenuItem, repositoryToolStripMenuItem });
+            Menu.Items.AddRange(new ToolStripItem[] { sairToolStripMenuItem, configurationToolStripMenuItem, domainToolStripMenuItem, repositoryToolStripMenuItem, servicesToolStripMenuItem, contextToolStripMenuItem });
             resources.ApplyResources(Menu, "Menu");
             Menu.Name = "Menu";
             // 
@@ -67,6 +69,18 @@
             resources.ApplyResources(repositoryToolStripMenuItem, "repositoryToolStripMenuItem");
             repositoryToolStripMenuItem.Click += repositoryToolStripMenuItem_Click;
             // 
+            // servicesToolStripMenuItem
+            // 
+            servicesToolStripMenuItem.Name = "servicesToolStripMenuItem";
+            resources.ApplyResources(servicesToolStripMenuItem, "servicesToolStripMenuItem");
+            servicesToolStripMenuItem.Click += servicesToolStripMenuItem_Click;
+            // 
+            // contextToolStripMenuItem
+            // 
+            contextToolStripMenuItem.Name = "contextToolStripMenuItem";
+            resources.ApplyResources(contextToolStripMenuItem, "contextToolStripMenuItem");
+            contextToolStripMenuItem.Click += contextToolStripMenuItem_Click;
+            // 
             // FrmInicial
             // 
             resources.ApplyResources(this, "$this");
@@ -89,5 +103,7 @@
         private ToolStripMenuItem repositoryToolStripMenuItem;
         private ToolStripMenuItem configurationToolStripMenuItem;
         private ToolStripMenuItem sairToolStripMenuItem;
+        private ToolStripMenuItem servicesToolStripMenuItem;
+        private ToolStripMenuItem contextToolStripMenuItem;
     }
 }

@@ -1,14 +1,14 @@
-﻿namespace GerarEntidadeTabela
+﻿namespace GerarCodigoBanco
 {
-    partial class FrmDomain
+    partial class FrmContext
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,37 +23,39 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            BtnExecutar = new Button();
-            LblNameSpace = new Label();
+            TxtBancoDados = new TextBox();
             TxtNameSpace = new TextBox();
+            LblNameSpace = new Label();
+            BtnExecutar = new Button();
             LvwTabelas = new ListView();
-            BtnTodasTabelas = new Button();
-            BtnSair = new Button();
             GrpSistema = new GroupBox();
             TxtSistema = new TextBox();
+            BtnSair = new Button();
             GrpBanco = new GroupBox();
             BtnCarregarTabelas = new Button();
-            TxtBancoDados = new TextBox();
             LblBanco = new Label();
             GrpSistema.SuspendLayout();
             GrpBanco.SuspendLayout();
             SuspendLayout();
             // 
-            // BtnExecutar
+            // TxtBancoDados
             // 
-            BtnExecutar.BackColor = Color.DodgerBlue;
-            BtnExecutar.Location = new Point(149, 127);
-            BtnExecutar.Name = "BtnExecutar";
-            BtnExecutar.Size = new Size(138, 36);
-            BtnExecutar.TabIndex = 4;
-            BtnExecutar.Text = "Gerar Selecionada";
-            BtnExecutar.UseVisualStyleBackColor = false;
-            BtnExecutar.Click += BtnExecutar_Click;
+            TxtBancoDados.Location = new Point(6, 38);
+            TxtBancoDados.Name = "TxtBancoDados";
+            TxtBancoDados.Size = new Size(281, 23);
+            TxtBancoDados.TabIndex = 0;
+            // 
+            // TxtNameSpace
+            // 
+            TxtNameSpace.Location = new Point(6, 80);
+            TxtNameSpace.Name = "TxtNameSpace";
+            TxtNameSpace.Size = new Size(281, 23);
+            TxtNameSpace.TabIndex = 2;
             // 
             // LblNameSpace
             // 
@@ -64,54 +66,35 @@
             LblNameSpace.TabIndex = 4;
             LblNameSpace.Text = "Informa o NameSpace:";
             // 
-            // TxtNameSpace
+            // BtnExecutar
             // 
-            TxtNameSpace.Location = new Point(6, 80);
-            TxtNameSpace.Name = "TxtNameSpace";
-            TxtNameSpace.Size = new Size(281, 23);
-            TxtNameSpace.TabIndex = 2;
+            BtnExecutar.BackColor = Color.DodgerBlue;
+            BtnExecutar.Location = new Point(149, 127);
+            BtnExecutar.Name = "BtnExecutar";
+            BtnExecutar.Size = new Size(138, 36);
+            BtnExecutar.TabIndex = 4;
+            BtnExecutar.Text = "Gerar";
+            BtnExecutar.UseVisualStyleBackColor = false;
+            BtnExecutar.Click += BtnExecutar_Click;
             // 
             // LvwTabelas
             // 
-            LvwTabelas.Location = new Point(12, 12);
+            LvwTabelas.Location = new Point(12, 13);
             LvwTabelas.Name = "LvwTabelas";
             LvwTabelas.Size = new Size(186, 342);
-            LvwTabelas.TabIndex = 5;
+            LvwTabelas.TabIndex = 9;
             LvwTabelas.UseCompatibleStateImageBehavior = false;
-            // 
-            // BtnTodasTabelas
-            // 
-            BtnTodasTabelas.BackColor = Color.Crimson;
-            BtnTodasTabelas.Location = new Point(6, 127);
-            BtnTodasTabelas.Name = "BtnTodasTabelas";
-            BtnTodasTabelas.Size = new Size(138, 36);
-            BtnTodasTabelas.TabIndex = 5;
-            BtnTodasTabelas.Text = "Gerar Todas";
-            BtnTodasTabelas.UseVisualStyleBackColor = false;
-            BtnTodasTabelas.Click += BtnTodasTabelas_Click;
-            // 
-            // BtnSair
-            // 
-            BtnSair.BackColor = Color.DodgerBlue;
-            BtnSair.Location = new Point(364, 318);
-            BtnSair.Name = "BtnSair";
-            BtnSair.Size = new Size(138, 36);
-            BtnSair.TabIndex = 6;
-            BtnSair.Text = "Sair";
-            BtnSair.UseVisualStyleBackColor = false;
-            BtnSair.Click += BtnSair_Click;
             // 
             // GrpSistema
             // 
             GrpSistema.Controls.Add(TxtSistema);
             GrpSistema.Controls.Add(TxtNameSpace);
-            GrpSistema.Controls.Add(BtnTodasTabelas);
             GrpSistema.Controls.Add(LblNameSpace);
             GrpSistema.Controls.Add(BtnExecutar);
-            GrpSistema.Location = new Point(209, 143);
+            GrpSistema.Location = new Point(209, 144);
             GrpSistema.Name = "GrpSistema";
             GrpSistema.Size = new Size(293, 169);
-            GrpSistema.TabIndex = 7;
+            GrpSistema.TabIndex = 11;
             GrpSistema.TabStop = false;
             GrpSistema.Text = "Sistema";
             // 
@@ -122,15 +105,26 @@
             TxtSistema.Size = new Size(281, 23);
             TxtSistema.TabIndex = 6;
             // 
+            // BtnSair
+            // 
+            BtnSair.BackColor = Color.DodgerBlue;
+            BtnSair.Location = new Point(358, 319);
+            BtnSair.Name = "BtnSair";
+            BtnSair.Size = new Size(138, 36);
+            BtnSair.TabIndex = 10;
+            BtnSair.Text = "Sair";
+            BtnSair.UseVisualStyleBackColor = false;
+            BtnSair.Click += BtnSair_Click;
+            // 
             // GrpBanco
             // 
             GrpBanco.Controls.Add(BtnCarregarTabelas);
             GrpBanco.Controls.Add(TxtBancoDados);
             GrpBanco.Controls.Add(LblBanco);
-            GrpBanco.Location = new Point(209, 21);
+            GrpBanco.Location = new Point(209, 22);
             GrpBanco.Name = "GrpBanco";
             GrpBanco.Size = new Size(293, 116);
-            GrpBanco.TabIndex = 8;
+            GrpBanco.TabIndex = 12;
             GrpBanco.TabStop = false;
             GrpBanco.Text = "Banco de Dados";
             // 
@@ -145,13 +139,6 @@
             BtnCarregarTabelas.UseVisualStyleBackColor = false;
             BtnCarregarTabelas.Click += BtnCarregarTabelas_Click;
             // 
-            // TxtBancoDados
-            // 
-            TxtBancoDados.Location = new Point(6, 38);
-            TxtBancoDados.Name = "TxtBancoDados";
-            TxtBancoDados.Size = new Size(281, 23);
-            TxtBancoDados.TabIndex = 0;
-            // 
             // LblBanco
             // 
             LblBanco.AutoSize = true;
@@ -161,20 +148,20 @@
             LblBanco.TabIndex = 0;
             LblBanco.Text = "Informe o Banco de Dados";
             // 
-            // FrmDomain
+            // FrmContext
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(514, 368);
-            Controls.Add(GrpBanco);
+            Controls.Add(LvwTabelas);
             Controls.Add(GrpSistema);
             Controls.Add(BtnSair);
-            Controls.Add(LvwTabelas);
+            Controls.Add(GrpBanco);
             MaximizeBox = false;
-            Name = "FrmDomain";
+            Name = "FrmContext";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Gerar Entidade";
-            Load += FrmGerar_Load;
+            Text = "DbContext";
+            Load += FrmContext_Load;
             GrpSistema.ResumeLayout(false);
             GrpSistema.PerformLayout();
             GrpBanco.ResumeLayout(false);
@@ -184,17 +171,16 @@
 
         #endregion
 
-        private Button BtnExecutar;
-        private Label LblNameSpace;
-        private TextBox TxtNameSpace;
-        private ListView LvwTabelas;
-        private Button BtnTodasTabelas;
-        private Button BtnSair;
-        private GroupBox GrpSistema;
-        private GroupBox GrpBanco;
         private TextBox TxtBancoDados;
-        private Label LblBanco;
-        private Button BtnCarregarTabelas;
+        private TextBox TxtNameSpace;
+        private Label LblNameSpace;
+        private Button BtnExecutar;
+        private ListView LvwTabelas;
+        private GroupBox GrpSistema;
         private TextBox TxtSistema;
+        private Button BtnSair;
+        private GroupBox GrpBanco;
+        private Button BtnCarregarTabelas;
+        private Label LblBanco;
     }
 }

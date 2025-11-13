@@ -30,8 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmConfig));
             PnlConfig = new Panel();
-            BtnSair = new Button();
+            TxtNamespaceService = new TextBox();
             BtnAtualizar = new Button();
+            LblService = new Label();
+            BtnSair = new Button();
             TxtNamespaceRepositorio = new TextBox();
             TxtNamespaceDominio = new TextBox();
             TxtBancoDados = new TextBox();
@@ -45,8 +47,10 @@
             // 
             // PnlConfig
             // 
-            PnlConfig.Controls.Add(BtnSair);
+            PnlConfig.Controls.Add(TxtNamespaceService);
             PnlConfig.Controls.Add(BtnAtualizar);
+            PnlConfig.Controls.Add(LblService);
+            PnlConfig.Controls.Add(BtnSair);
             PnlConfig.Controls.Add(TxtNamespaceRepositorio);
             PnlConfig.Controls.Add(TxtNamespaceDominio);
             PnlConfig.Controls.Add(TxtBancoDados);
@@ -57,30 +61,46 @@
             PnlConfig.Controls.Add(LblSistema);
             PnlConfig.Location = new Point(12, 12);
             PnlConfig.Name = "PnlConfig";
-            PnlConfig.Size = new Size(305, 310);
+            PnlConfig.Size = new Size(305, 349);
             PnlConfig.TabIndex = 0;
             // 
-            // BtnSair
+            // TxtNamespaceService
             // 
-            BtnSair.BackColor = Color.DodgerBlue;
-            BtnSair.Location = new Point(20, 271);
-            BtnSair.Name = "BtnSair";
-            BtnSair.Size = new Size(138, 36);
-            BtnSair.TabIndex = 7;
-            BtnSair.Text = "Sair";
-            BtnSair.UseVisualStyleBackColor = false;
-            BtnSair.Click += BtnSair_Click;
+            TxtNamespaceService.Location = new Point(3, 271);
+            TxtNamespaceService.Name = "TxtNamespaceService";
+            TxtNamespaceService.Size = new Size(299, 23);
+            TxtNamespaceService.TabIndex = 10;
             // 
             // BtnAtualizar
             // 
             BtnAtualizar.BackColor = Color.DodgerBlue;
-            BtnAtualizar.Location = new Point(164, 271);
+            BtnAtualizar.Location = new Point(161, 310);
             BtnAtualizar.Name = "BtnAtualizar";
             BtnAtualizar.Size = new Size(138, 36);
             BtnAtualizar.TabIndex = 8;
             BtnAtualizar.Text = "Atualizar";
             BtnAtualizar.UseVisualStyleBackColor = false;
             BtnAtualizar.Click += BtnAtualizar_Click;
+            // 
+            // LblService
+            // 
+            LblService.AutoSize = true;
+            LblService.Location = new Point(0, 253);
+            LblService.Name = "LblService";
+            LblService.Size = new Size(109, 15);
+            LblService.TabIndex = 9;
+            LblService.Text = "Namespace Service";
+            // 
+            // BtnSair
+            // 
+            BtnSair.BackColor = Color.DodgerBlue;
+            BtnSair.Location = new Point(17, 310);
+            BtnSair.Name = "BtnSair";
+            BtnSair.Size = new Size(138, 36);
+            BtnSair.TabIndex = 7;
+            BtnSair.Text = "Sair";
+            BtnSair.UseVisualStyleBackColor = false;
+            BtnSair.Click += BtnSair_Click;
             // 
             // TxtNamespaceRepositorio
             // 
@@ -150,7 +170,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(329, 334);
+            ClientSize = new Size(329, 373);
             Controls.Add(PnlConfig);
             Icon = (Icon)resources.GetObject("$this.Icon");
             MaximizeBox = false;
@@ -176,5 +196,7 @@
         private TextBox TxtSistema;
         private Button BtnAtualizar;
         private Button BtnSair;
+        private TextBox TxtNamespaceService;
+        private Label LblService;
     }
 }

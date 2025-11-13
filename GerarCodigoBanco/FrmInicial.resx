@@ -145,6 +145,18 @@
   <data name="repositoryToolStripMenuItem.Text" xml:space="preserve">
     <value>Repository</value>
   </data>
+  <data name="servicesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="servicesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="contextToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="contextToolStripMenuItem.Text" xml:space="preserve">
+    <value>Context</value>
+  </data>
   <data name="Menu.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -1594,6 +1606,18 @@
     <value>repositoryToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;repositoryToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;servicesToolStripMenuItem.Name" xml:space="preserve">
+    <value>servicesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;servicesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextToolStripMenuItem.Name" xml:space="preserve">
+    <value>contextToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;contextToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
