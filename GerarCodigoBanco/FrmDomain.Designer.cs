@@ -1,6 +1,6 @@
 ﻿namespace GerarEntidadeTabela
 {
-    partial class FrmGerar
+    partial class FrmDomain
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             BtnExecutar = new Button();
-            TxtTabela = new TextBox();
-            LblTabela = new Label();
             LblNameSpace = new Label();
             TxtNameSpace = new TextBox();
             LvwTabelas = new ListView();
@@ -41,6 +39,7 @@
             BtnCarregarTabelas = new Button();
             TxtBancoDados = new TextBox();
             LblBanco = new Label();
+            TxtSistema = new TextBox();
             GrpSistema.SuspendLayout();
             GrpBanco.SuspendLayout();
             SuspendLayout();
@@ -48,7 +47,7 @@
             // BtnExecutar
             // 
             BtnExecutar.BackColor = Color.DodgerBlue;
-            BtnExecutar.Location = new Point(138, 123);
+            BtnExecutar.Location = new Point(144, 127);
             BtnExecutar.Name = "BtnExecutar";
             BtnExecutar.Size = new Size(138, 36);
             BtnExecutar.TabIndex = 4;
@@ -56,26 +55,10 @@
             BtnExecutar.UseVisualStyleBackColor = false;
             BtnExecutar.Click += BtnExecutar_Click;
             // 
-            // TxtTabela
-            // 
-            TxtTabela.Location = new Point(6, 94);
-            TxtTabela.Name = "TxtTabela";
-            TxtTabela.Size = new Size(177, 23);
-            TxtTabela.TabIndex = 3;
-            // 
-            // LblTabela
-            // 
-            LblTabela.AutoSize = true;
-            LblTabela.Location = new Point(6, 74);
-            LblTabela.Name = "LblTabela";
-            LblTabela.Size = new Size(98, 15);
-            LblTabela.TabIndex = 2;
-            LblTabela.Text = "Informa a Tabela:";
-            // 
             // LblNameSpace
             // 
             LblNameSpace.AutoSize = true;
-            LblNameSpace.Location = new Point(6, 30);
+            LblNameSpace.Location = new Point(6, 62);
             LblNameSpace.Name = "LblNameSpace";
             LblNameSpace.Size = new Size(128, 15);
             LblNameSpace.TabIndex = 4;
@@ -83,7 +66,7 @@
             // 
             // TxtNameSpace
             // 
-            TxtNameSpace.Location = new Point(6, 48);
+            TxtNameSpace.Location = new Point(6, 80);
             TxtNameSpace.Name = "TxtNameSpace";
             TxtNameSpace.Size = new Size(270, 23);
             TxtNameSpace.TabIndex = 2;
@@ -99,7 +82,7 @@
             // BtnTodasTabelas
             // 
             BtnTodasTabelas.BackColor = Color.Crimson;
-            BtnTodasTabelas.Location = new Point(-4, 123);
+            BtnTodasTabelas.Location = new Point(6, 127);
             BtnTodasTabelas.Name = "BtnTodasTabelas";
             BtnTodasTabelas.Size = new Size(138, 36);
             BtnTodasTabelas.TabIndex = 5;
@@ -120,8 +103,7 @@
             // 
             // GrpSistema
             // 
-            GrpSistema.Controls.Add(TxtTabela);
-            GrpSistema.Controls.Add(LblTabela);
+            GrpSistema.Controls.Add(TxtSistema);
             GrpSistema.Controls.Add(TxtNameSpace);
             GrpSistema.Controls.Add(BtnTodasTabelas);
             GrpSistema.Controls.Add(LblNameSpace);
@@ -172,7 +154,14 @@
             LblBanco.TabIndex = 0;
             LblBanco.Text = "Informe o Banco de Dados";
             // 
-            // FrmGerar
+            // TxtSistema
+            // 
+            TxtSistema.Location = new Point(6, 22);
+            TxtSistema.Name = "TxtSistema";
+            TxtSistema.Size = new Size(270, 23);
+            TxtSistema.TabIndex = 6;
+            // 
+            // FrmDomain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -181,7 +170,8 @@
             Controls.Add(GrpSistema);
             Controls.Add(BtnSair);
             Controls.Add(LvwTabelas);
-            Name = "FrmGerar";
+            MaximizeBox = false;
+            Name = "FrmDomain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Gerar Entidade";
             Load += FrmGerar_Load;
@@ -195,8 +185,6 @@
         #endregion
 
         private Button BtnExecutar;
-        private TextBox TxtTabela;
-        private Label LblTabela;
         private Label LblNameSpace;
         private TextBox TxtNameSpace;
         private ListView LvwTabelas;
@@ -207,5 +195,6 @@
         private TextBox TxtBancoDados;
         private Label LblBanco;
         private Button BtnCarregarTabelas;
+        private TextBox TxtSistema;
     }
 }

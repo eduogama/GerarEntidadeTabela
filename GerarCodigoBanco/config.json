@@ -1,0 +1,8 @@
+[
+  {
+    "sistema": "eog.solicitacoes",
+    "bancoDados": "dbContrSolicIS",
+    "namespaceDominio": "domain",
+	"namespaceRepositorio": "repository",
+  }
+ ]

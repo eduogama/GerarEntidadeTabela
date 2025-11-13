@@ -1,24 +1,30 @@
-using Microsoft.Data.SqlClient;
+using GerarCodigoBanco.Entidade;
+using GerarCodigoBanco.Repository;
+using GerarCodigoBanco.Uitls;
 
 namespace GerarEntidadeTabela
 {
-    public partial class FrmGerar : Form
+    public partial class FrmDomain : Form
     {
-        public FrmGerar()
+        public FrmDomain()
         {
             InitializeComponent();
         }
 
         private void FrmGerar_Load(object sender, EventArgs e)
         {
-
+            Config config = ClsConfig.Obter();
+            TxtBancoDados.Text = config.BancoDados;
+            TxtSistema.Text = config.Sistema;
+            TxtNameSpace.Text = String.Format("{0}.{1}", config.Sistema, config.NamespaceDominio);
         }
 
         private void BtnCarregarTabelas_Click(object sender, EventArgs e)
         {
             if (TxtBancoDados.Text != "")
             {
-                CarregarListView(TxtBancoDados.Text);
+                List<Tabelas> tabelas = ClsBanco.ObterTabelas(TxtBancoDados.Text);
+                CarregarListView(tabelas);
                 MessageBox.Show("Tabela Carregas com Sucesso");
             }
             else
@@ -31,11 +37,9 @@ namespace GerarEntidadeTabela
         {
             if (LvwTabelas.SelectedItems.Count > 0)
             {
-                TxtTabela.Text = LvwTabelas.SelectedItems[0].Text; // Coluna principal
-
                 if (TxtNameSpace.Text != "")
                 {
-                    Metodos.GerarEntidade(TxtNameSpace.Text, TxtTabela.Text);
+                    ClsGerar.Entidade(TxtBancoDados.Text, TxtNameSpace.Text, LvwTabelas.SelectedItems[0].Text);
                     MessageBox.Show("Classe Gerada com Sucesso");
                 }
                 else
@@ -53,7 +57,7 @@ namespace GerarEntidadeTabela
                 {
                     for (int i = 0; i < item.SubItems.Count; i++)
                     {
-                        Metodos.GerarEntidade(TxtNameSpace.Text, item.SubItems[i].Text);
+                        ClsGerar.Entidade(TxtBancoDados.Text, TxtNameSpace.Text, item.SubItems[i].Text);
                     }
                 }
                 MessageBox.Show("Classe Gerada com Sucesso");
@@ -69,34 +73,21 @@ namespace GerarEntidadeTabela
             this.Close();
         }
 
-        private void CarregarListView(string bancoDados)
+        private void CarregarListView(List<Tabelas> tabelas)
         {
-            // String de conexão (ajuste conforme seu servidor e banco)
-            string connectionString = String.Format("Data Source=localhost,1450;Initial Catalog={0};Persist Security Info=True;TrustServerCertificate=True;User ID=sa;Password=Wowsan060", bancoDados);
-
-            using SqlConnection conn = new(connectionString);
-            conn.Open();
-            string query = "SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES ORDER BY TABLE_NAME"; // Ajuste a tabela e colunas
-
-            SqlCommand cmd = new(query, conn);
-            SqlDataReader reader = cmd.ExecuteReader();
-
             // Configura o ListView
             LvwTabelas.View = View.Details;
             LvwTabelas.Columns.Clear();
             LvwTabelas.Columns.Add("TABELA", 200);
             LvwTabelas.Items.Clear();
-
             // Preenche com os dados do banco
             int id = 1;
-            while (reader.Read())
+            foreach (var tabela in tabelas)
             {
-                ListViewItem item = new(reader["TABLE_NAME"].ToString());
+                ListViewItem item = new(tabela.TABLE_NAME);
                 LvwTabelas.Items.Add(item);
                 id++;
             }
-
-            reader.Close();
         }
     }
 }
