@@ -55,7 +55,7 @@ namespace GerarEntidadeTabela
 
         private void BtnTodasTabelas_Click(object sender, EventArgs e)
         {
-            if (LvwTabelas.SelectedItems.Count > 0)
+            if (LvwTabelas.Items.Count > 0)
             {
                 if (TxtNameSpace.Text != "")
                 {

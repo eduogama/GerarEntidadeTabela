@@ -17,7 +17,7 @@ namespace GerarCodigoBanco
             Config config = ClsConfig.Obter();
             TxtBancoDados.Text = config.BancoDados;
             TxtSistema.Text = config.Sistema;
-            TxtNameSpace.Text = String.Format("{0}.{1}", config.Sistema, config.NamespaceDominio);
+            TxtNameSpace.Text = String.Format("{0}.{1}", config.Sistema, config.NamespaceRepositorio);
         }
 
         private void BtnCarregarTabelas_Click(object sender, EventArgs e)
@@ -36,7 +36,7 @@ namespace GerarCodigoBanco
 
         private void BtnExecutar_Click(object sender, EventArgs e)
         {
-            if (LvwTabelas.SelectedItems.Count > 0)
+            if (LvwTabelas.Items.Count > 0)
             {
                 if (TxtNameSpace.Text != "")
                 {

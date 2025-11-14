@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|d:\\projetos\\net\\workspace\\gerardorcodigobanco\\gerarcodigobanco\\uitls\\clsgerar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|solutionrelative:gerarcodigobanco\\uitls\\clsgerar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +31,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClsGerar.cs",
+              "DocumentMoniker": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\Uitls\\ClsGerar.cs",
+              "RelativeDocumentMoniker": "GerarCodigoBanco\\Uitls\\ClsGerar.cs",
+              "ToolTip": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\Uitls\\ClsGerar.cs",
+              "RelativeToolTip": "GerarCodigoBanco\\Uitls\\ClsGerar.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAowCEAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T22:17:53.309Z",
+              "EditorCaption": ""
             }
           ]
         }

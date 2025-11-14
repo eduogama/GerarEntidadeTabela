@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmServices));
             GrpSistema = new GroupBox();
             TxtSistema = new TextBox();
             TxtNameSpace = new TextBox();
@@ -51,33 +52,38 @@
             GrpSistema.Controls.Add(BtnTodasTabelas);
             GrpSistema.Controls.Add(LblNameSpace);
             GrpSistema.Controls.Add(BtnExecutar);
-            GrpSistema.Location = new Point(212, 138);
+            GrpSistema.Location = new Point(273, 193);
+            GrpSistema.Margin = new Padding(4, 4, 4, 4);
             GrpSistema.Name = "GrpSistema";
-            GrpSistema.Size = new Size(282, 169);
+            GrpSistema.Padding = new Padding(4, 4, 4, 4);
+            GrpSistema.Size = new Size(363, 237);
             GrpSistema.TabIndex = 12;
             GrpSistema.TabStop = false;
             GrpSistema.Text = "Sistema";
             // 
             // TxtSistema
             // 
-            TxtSistema.Location = new Point(5, 22);
+            TxtSistema.Location = new Point(6, 31);
+            TxtSistema.Margin = new Padding(4, 4, 4, 4);
             TxtSistema.Name = "TxtSistema";
-            TxtSistema.Size = new Size(270, 23);
+            TxtSistema.Size = new Size(346, 29);
             TxtSistema.TabIndex = 6;
             // 
             // TxtNameSpace
             // 
-            TxtNameSpace.Location = new Point(6, 81);
+            TxtNameSpace.Location = new Point(8, 113);
+            TxtNameSpace.Margin = new Padding(4, 4, 4, 4);
             TxtNameSpace.Name = "TxtNameSpace";
-            TxtNameSpace.Size = new Size(270, 23);
+            TxtNameSpace.Size = new Size(346, 29);
             TxtNameSpace.TabIndex = 2;
             // 
             // BtnTodasTabelas
             // 
             BtnTodasTabelas.BackColor = Color.Crimson;
-            BtnTodasTabelas.Location = new Point(-4, 123);
+            BtnTodasTabelas.Location = new Point(-5, 172);
+            BtnTodasTabelas.Margin = new Padding(4, 4, 4, 4);
             BtnTodasTabelas.Name = "BtnTodasTabelas";
-            BtnTodasTabelas.Size = new Size(138, 36);
+            BtnTodasTabelas.Size = new Size(177, 50);
             BtnTodasTabelas.TabIndex = 5;
             BtnTodasTabelas.Text = "Gerar Todas";
             BtnTodasTabelas.UseVisualStyleBackColor = false;
@@ -86,18 +92,20 @@
             // LblNameSpace
             // 
             LblNameSpace.AutoSize = true;
-            LblNameSpace.Location = new Point(6, 63);
+            LblNameSpace.Location = new Point(8, 88);
+            LblNameSpace.Margin = new Padding(4, 0, 4, 0);
             LblNameSpace.Name = "LblNameSpace";
-            LblNameSpace.Size = new Size(128, 15);
+            LblNameSpace.Size = new Size(168, 21);
             LblNameSpace.TabIndex = 4;
             LblNameSpace.Text = "Informa o NameSpace:";
             // 
             // BtnExecutar
             // 
             BtnExecutar.BackColor = Color.DodgerBlue;
-            BtnExecutar.Location = new Point(138, 123);
+            BtnExecutar.Location = new Point(177, 172);
+            BtnExecutar.Margin = new Padding(4, 4, 4, 4);
             BtnExecutar.Name = "BtnExecutar";
-            BtnExecutar.Size = new Size(138, 36);
+            BtnExecutar.Size = new Size(177, 50);
             BtnExecutar.TabIndex = 4;
             BtnExecutar.Text = "Gerar Selecionada";
             BtnExecutar.UseVisualStyleBackColor = false;
@@ -105,9 +113,10 @@
             // 
             // LvwTabelas
             // 
-            LvwTabelas.Location = new Point(20, 13);
+            LvwTabelas.Location = new Point(26, 18);
+            LvwTabelas.Margin = new Padding(4, 4, 4, 4);
             LvwTabelas.Name = "LvwTabelas";
-            LvwTabelas.Size = new Size(186, 342);
+            LvwTabelas.Size = new Size(238, 477);
             LvwTabelas.TabIndex = 11;
             LvwTabelas.UseCompatibleStateImageBehavior = false;
             // 
@@ -116,9 +125,11 @@
             GrpBanco.Controls.Add(BtnCarregarTabelas);
             GrpBanco.Controls.Add(TxtBancoDados);
             GrpBanco.Controls.Add(LblBanco);
-            GrpBanco.Location = new Point(212, 16);
+            GrpBanco.Location = new Point(273, 22);
+            GrpBanco.Margin = new Padding(4, 4, 4, 4);
             GrpBanco.Name = "GrpBanco";
-            GrpBanco.Size = new Size(282, 116);
+            GrpBanco.Padding = new Padding(4, 4, 4, 4);
+            GrpBanco.Size = new Size(363, 162);
             GrpBanco.TabIndex = 13;
             GrpBanco.TabStop = false;
             GrpBanco.Text = "Banco de Dados";
@@ -126,9 +137,10 @@
             // BtnCarregarTabelas
             // 
             BtnCarregarTabelas.BackColor = Color.DodgerBlue;
-            BtnCarregarTabelas.Location = new Point(138, 74);
+            BtnCarregarTabelas.Location = new Point(177, 104);
+            BtnCarregarTabelas.Margin = new Padding(4, 4, 4, 4);
             BtnCarregarTabelas.Name = "BtnCarregarTabelas";
-            BtnCarregarTabelas.Size = new Size(138, 36);
+            BtnCarregarTabelas.Size = new Size(177, 50);
             BtnCarregarTabelas.TabIndex = 1;
             BtnCarregarTabelas.Text = "Carregar Tabelas";
             BtnCarregarTabelas.UseVisualStyleBackColor = false;
@@ -136,26 +148,29 @@
             // 
             // TxtBancoDados
             // 
-            TxtBancoDados.Location = new Point(6, 38);
+            TxtBancoDados.Location = new Point(8, 53);
+            TxtBancoDados.Margin = new Padding(4, 4, 4, 4);
             TxtBancoDados.Name = "TxtBancoDados";
-            TxtBancoDados.Size = new Size(270, 23);
+            TxtBancoDados.Size = new Size(346, 29);
             TxtBancoDados.TabIndex = 0;
             // 
             // LblBanco
             // 
             LblBanco.AutoSize = true;
-            LblBanco.Location = new Point(5, 20);
+            LblBanco.Location = new Point(6, 28);
+            LblBanco.Margin = new Padding(4, 0, 4, 0);
             LblBanco.Name = "LblBanco";
-            LblBanco.Size = new Size(147, 15);
+            LblBanco.Size = new Size(193, 21);
             LblBanco.TabIndex = 0;
             LblBanco.Text = "Informe o Banco de Dados";
             // 
             // BtnSair
             // 
             BtnSair.BackColor = Color.DodgerBlue;
-            BtnSair.Location = new Point(356, 319);
+            BtnSair.Location = new Point(458, 447);
+            BtnSair.Margin = new Padding(4, 4, 4, 4);
             BtnSair.Name = "BtnSair";
-            BtnSair.Size = new Size(138, 36);
+            BtnSair.Size = new Size(177, 50);
             BtnSair.TabIndex = 14;
             BtnSair.Text = "Sair";
             BtnSair.UseVisualStyleBackColor = false;
@@ -163,13 +178,16 @@
             // 
             // FrmServices
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(514, 368);
+            ClientSize = new Size(661, 515);
             Controls.Add(GrpSistema);
             Controls.Add(LvwTabelas);
             Controls.Add(GrpBanco);
             Controls.Add(BtnSair);
+            Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(4, 4, 4, 4);
             MaximizeBox = false;
             Name = "FrmServices";
             StartPosition = FormStartPosition.CenterScreen;

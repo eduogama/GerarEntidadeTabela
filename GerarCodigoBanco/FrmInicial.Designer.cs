@@ -41,8 +41,8 @@
             // 
             // Menu
             // 
-            Menu.Items.AddRange(new ToolStripItem[] { sairToolStripMenuItem, configurationToolStripMenuItem, domainToolStripMenuItem, repositoryToolStripMenuItem, servicesToolStripMenuItem, contextToolStripMenuItem });
             resources.ApplyResources(Menu, "Menu");
+            Menu.Items.AddRange(new ToolStripItem[] { sairToolStripMenuItem, configurationToolStripMenuItem, domainToolStripMenuItem, repositoryToolStripMenuItem, servicesToolStripMenuItem, contextToolStripMenuItem });
             Menu.Name = "Menu";
             // 
             // sairToolStripMenuItem

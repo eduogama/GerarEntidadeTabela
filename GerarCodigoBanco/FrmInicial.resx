@@ -121,38 +121,41 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Menu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
   <data name="sairToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 20</value>
+    <value>49, 25</value>
   </data>
   <data name="sairToolStripMenuItem.Text" xml:space="preserve">
     <value>Sair</value>
   </data>
   <data name="configurationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 20</value>
+    <value>118, 25</value>
   </data>
   <data name="configurationToolStripMenuItem.Text" xml:space="preserve">
     <value>Configuration</value>
   </data>
   <data name="domainToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
+    <value>77, 25</value>
   </data>
   <data name="domainToolStripMenuItem.Text" xml:space="preserve">
     <value>Domain</value>
   </data>
   <data name="repositoryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 20</value>
+    <value>97, 25</value>
   </data>
   <data name="repositoryToolStripMenuItem.Text" xml:space="preserve">
     <value>Repository</value>
   </data>
   <data name="servicesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
+    <value>79, 25</value>
   </data>
   <data name="servicesToolStripMenuItem.Text" xml:space="preserve">
     <value>Services</value>
   </data>
   <data name="contextToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 20</value>
+    <value>75, 25</value>
   </data>
   <data name="contextToolStripMenuItem.Text" xml:space="preserve">
     <value>Context</value>
@@ -161,7 +164,7 @@
     <value>0, 0</value>
   </data>
   <data name="Menu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1195, 24</value>
+    <value>1195, 29</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Menu.TabIndex" type="System.Int32, mscorlib">
@@ -190,6 +193,9 @@
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1195, 625</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

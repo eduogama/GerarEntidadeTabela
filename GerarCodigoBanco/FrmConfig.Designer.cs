@@ -59,24 +59,27 @@
             PnlConfig.Controls.Add(LblNamespaceDominio);
             PnlConfig.Controls.Add(LblBancoDados);
             PnlConfig.Controls.Add(LblSistema);
-            PnlConfig.Location = new Point(12, 12);
+            PnlConfig.Location = new Point(15, 17);
+            PnlConfig.Margin = new Padding(4, 4, 4, 4);
             PnlConfig.Name = "PnlConfig";
-            PnlConfig.Size = new Size(305, 349);
+            PnlConfig.Size = new Size(392, 489);
             PnlConfig.TabIndex = 0;
             // 
             // TxtNamespaceService
             // 
-            TxtNamespaceService.Location = new Point(3, 271);
+            TxtNamespaceService.Location = new Point(4, 379);
+            TxtNamespaceService.Margin = new Padding(4, 4, 4, 4);
             TxtNamespaceService.Name = "TxtNamespaceService";
-            TxtNamespaceService.Size = new Size(299, 23);
+            TxtNamespaceService.Size = new Size(383, 29);
             TxtNamespaceService.TabIndex = 10;
             // 
             // BtnAtualizar
             // 
             BtnAtualizar.BackColor = Color.DodgerBlue;
-            BtnAtualizar.Location = new Point(161, 310);
+            BtnAtualizar.Location = new Point(207, 434);
+            BtnAtualizar.Margin = new Padding(4, 4, 4, 4);
             BtnAtualizar.Name = "BtnAtualizar";
-            BtnAtualizar.Size = new Size(138, 36);
+            BtnAtualizar.Size = new Size(177, 50);
             BtnAtualizar.TabIndex = 8;
             BtnAtualizar.Text = "Atualizar";
             BtnAtualizar.UseVisualStyleBackColor = false;
@@ -85,18 +88,20 @@
             // LblService
             // 
             LblService.AutoSize = true;
-            LblService.Location = new Point(0, 253);
+            LblService.Location = new Point(0, 354);
+            LblService.Margin = new Padding(4, 0, 4, 0);
             LblService.Name = "LblService";
-            LblService.Size = new Size(109, 15);
+            LblService.Size = new Size(145, 21);
             LblService.TabIndex = 9;
             LblService.Text = "Namespace Service";
             // 
             // BtnSair
             // 
             BtnSair.BackColor = Color.DodgerBlue;
-            BtnSair.Location = new Point(17, 310);
+            BtnSair.Location = new Point(22, 434);
+            BtnSair.Margin = new Padding(4, 4, 4, 4);
             BtnSair.Name = "BtnSair";
-            BtnSair.Size = new Size(138, 36);
+            BtnSair.Size = new Size(177, 50);
             BtnSair.TabIndex = 7;
             BtnSair.Text = "Sair";
             BtnSair.UseVisualStyleBackColor = false;
@@ -104,75 +109,85 @@
             // 
             // TxtNamespaceRepositorio
             // 
-            TxtNamespaceRepositorio.Location = new Point(3, 215);
+            TxtNamespaceRepositorio.Location = new Point(4, 301);
+            TxtNamespaceRepositorio.Margin = new Padding(4, 4, 4, 4);
             TxtNamespaceRepositorio.Name = "TxtNamespaceRepositorio";
-            TxtNamespaceRepositorio.Size = new Size(299, 23);
+            TxtNamespaceRepositorio.Size = new Size(383, 29);
             TxtNamespaceRepositorio.TabIndex = 7;
             // 
             // TxtNamespaceDominio
             // 
-            TxtNamespaceDominio.Location = new Point(3, 157);
+            TxtNamespaceDominio.Location = new Point(4, 220);
+            TxtNamespaceDominio.Margin = new Padding(4, 4, 4, 4);
             TxtNamespaceDominio.Name = "TxtNamespaceDominio";
-            TxtNamespaceDominio.Size = new Size(299, 23);
+            TxtNamespaceDominio.Size = new Size(383, 29);
             TxtNamespaceDominio.TabIndex = 6;
             // 
             // TxtBancoDados
             // 
-            TxtBancoDados.Location = new Point(3, 97);
+            TxtBancoDados.Location = new Point(4, 136);
+            TxtBancoDados.Margin = new Padding(4, 4, 4, 4);
             TxtBancoDados.Name = "TxtBancoDados";
-            TxtBancoDados.Size = new Size(299, 23);
+            TxtBancoDados.Size = new Size(383, 29);
             TxtBancoDados.TabIndex = 5;
             // 
             // TxtSistema
             // 
-            TxtSistema.Location = new Point(3, 34);
+            TxtSistema.Location = new Point(4, 48);
+            TxtSistema.Margin = new Padding(4, 4, 4, 4);
             TxtSistema.Name = "TxtSistema";
-            TxtSistema.Size = new Size(299, 23);
+            TxtSistema.Size = new Size(383, 29);
             TxtSistema.TabIndex = 4;
             // 
             // LblNamespaceRepositorio
             // 
             LblNamespaceRepositorio.AutoSize = true;
-            LblNamespaceRepositorio.Location = new Point(3, 197);
+            LblNamespaceRepositorio.Location = new Point(4, 276);
+            LblNamespaceRepositorio.Margin = new Padding(4, 0, 4, 0);
             LblNamespaceRepositorio.Name = "LblNamespaceRepositorio";
-            LblNamespaceRepositorio.Size = new Size(132, 15);
+            LblNamespaceRepositorio.Size = new Size(175, 21);
             LblNamespaceRepositorio.TabIndex = 3;
             LblNamespaceRepositorio.Text = "Namespace Repositorio";
             // 
             // LblNamespaceDominio
             // 
             LblNamespaceDominio.AutoSize = true;
-            LblNamespaceDominio.Location = new Point(3, 139);
+            LblNamespaceDominio.Location = new Point(4, 195);
+            LblNamespaceDominio.Margin = new Padding(4, 0, 4, 0);
             LblNamespaceDominio.Name = "LblNamespaceDominio";
-            LblNamespaceDominio.Size = new Size(118, 15);
+            LblNamespaceDominio.Size = new Size(155, 21);
             LblNamespaceDominio.TabIndex = 2;
             LblNamespaceDominio.Text = "Namespace Dominio";
             // 
             // LblBancoDados
             // 
             LblBancoDados.AutoSize = true;
-            LblBancoDados.Location = new Point(3, 79);
+            LblBancoDados.Location = new Point(4, 111);
+            LblBancoDados.Margin = new Padding(4, 0, 4, 0);
             LblBancoDados.Name = "LblBancoDados";
-            LblBancoDados.Size = new Size(93, 15);
+            LblBancoDados.Size = new Size(123, 21);
             LblBancoDados.TabIndex = 1;
             LblBancoDados.Text = "Bando de Dados";
             // 
             // LblSistema
             // 
             LblSistema.AutoSize = true;
-            LblSistema.Location = new Point(3, 16);
+            LblSistema.Location = new Point(4, 22);
+            LblSistema.Margin = new Padding(4, 0, 4, 0);
             LblSistema.Name = "LblSistema";
-            LblSistema.Size = new Size(48, 15);
+            LblSistema.Size = new Size(65, 21);
             LblSistema.TabIndex = 0;
             LblSistema.Text = "Sistema";
             // 
             // FrmConfig
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(329, 373);
+            ClientSize = new Size(423, 522);
             Controls.Add(PnlConfig);
+            Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(4, 4, 4, 4);
             MaximizeBox = false;
             Name = "FrmConfig";
             StartPosition = FormStartPosition.CenterScreen;

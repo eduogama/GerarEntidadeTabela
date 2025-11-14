@@ -3,36 +3,8 @@
   "WorkspaceRootPath": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|d:\\projetos\\net\\workspace\\gerardorcodigobanco\\gerarcodigobanco\\frmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|solutionrelative:gerarcodigobanco\\frmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|d:\\projetos\\net\\workspace\\gerardorcodigobanco\\gerarcodigobanco\\frmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|solutionrelative:gerarcodigobanco\\frmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|d:\\projetos\\net\\workspace\\gerardorcodigobanco\\gerarcodigobanco\\frmdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|solutionrelative:gerarcodigobanco\\frmdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|d:\\projetos\\net\\workspace\\gerardorcodigobanco\\gerarcodigobanco\\frmdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|solutionrelative:gerarcodigobanco\\frmdomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|d:\\projetos\\net\\workspace\\gerardorcodigobanco\\gerarcodigobanco\\frmrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|solutionrelative:gerarcodigobanco\\frmrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|d:\\projetos\\net\\workspace\\gerardorcodigobanco\\gerarcodigobanco\\frmrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|solutionrelative:gerarcodigobanco\\frmrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|d:\\projetos\\net\\workspace\\gerardorcodigobanco\\gerarcodigobanco\\frmservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|solutionrelative:gerarcodigobanco\\frmservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|d:\\projetos\\net\\workspace\\gerardorcodigobanco\\gerarcodigobanco\\frmservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|solutionrelative:gerarcodigobanco\\frmservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|d:\\projetos\\net\\workspace\\gerardorcodigobanco\\gerarcodigobanco\\uitls\\clsgerar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4E8CDA2-79BB-69C9-E54C-8DAE88CE65F7}|GerarCodigoBanco\\GerarCodigoBanco.csproj|solutionrelative:gerarcodigobanco\\uitls\\clsgerar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,103 +34,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmRepo.cs",
-              "DocumentMoniker": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\FrmRepo.cs",
-              "RelativeDocumentMoniker": "GerarCodigoBanco\\FrmRepo.cs",
-              "ToolTip": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\FrmRepo.cs",
-              "RelativeToolTip": "GerarCodigoBanco\\FrmRepo.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAUwFIAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T13:59:27.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FrmRepo.cs [Design]",
-              "DocumentMoniker": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\FrmRepo.cs",
-              "RelativeDocumentMoniker": "GerarCodigoBanco\\FrmRepo.cs",
-              "ToolTip": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\FrmRepo.cs [Design]",
-              "RelativeToolTip": "GerarCodigoBanco\\FrmRepo.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T13:59:25.387Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmDomain.cs",
-              "DocumentMoniker": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\FrmDomain.cs",
-              "RelativeDocumentMoniker": "GerarCodigoBanco\\FrmDomain.cs",
-              "ToolTip": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\FrmDomain.cs",
-              "RelativeToolTip": "GerarCodigoBanco\\FrmDomain.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwDMAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T13:58:16.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmDomain.cs [Design]",
-              "DocumentMoniker": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\FrmDomain.cs",
-              "RelativeDocumentMoniker": "GerarCodigoBanco\\FrmDomain.cs",
-              "ToolTip": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\FrmDomain.cs [Design]",
-              "RelativeToolTip": "GerarCodigoBanco\\FrmDomain.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T13:58:10.031Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmServices.cs",
-              "DocumentMoniker": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\FrmServices.cs",
-              "RelativeDocumentMoniker": "GerarCodigoBanco\\FrmServices.cs",
-              "ToolTip": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\FrmServices.cs",
-              "RelativeToolTip": "GerarCodigoBanco\\FrmServices.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAiwDkAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T13:57:37.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmContext.cs [Design]",
-              "DocumentMoniker": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\FrmContext.cs",
-              "RelativeDocumentMoniker": "GerarCodigoBanco\\FrmContext.cs",
-              "ToolTip": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\FrmContext.cs [Design]",
-              "RelativeToolTip": "GerarCodigoBanco\\FrmContext.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T13:57:51.342Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmContext.cs",
-              "DocumentMoniker": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\FrmContext.cs",
-              "RelativeDocumentMoniker": "GerarCodigoBanco\\FrmContext.cs",
-              "ToolTip": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\FrmContext.cs",
-              "RelativeToolTip": "GerarCodigoBanco\\FrmContext.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAiwDQAAAA5AAAAAAAAAA==",
+              "Title": "ClsGerar.cs",
+              "DocumentMoniker": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\Uitls\\ClsGerar.cs",
+              "RelativeDocumentMoniker": "GerarCodigoBanco\\Uitls\\ClsGerar.cs",
+              "ToolTip": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\Uitls\\ClsGerar.cs",
+              "RelativeToolTip": "GerarCodigoBanco\\Uitls\\ClsGerar.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCEAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T13:57:53.372Z",
+              "WhenOpened": "2025-11-13T22:17:53.309Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FrmServices.cs [Design]",
-              "DocumentMoniker": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\FrmServices.cs",
-              "RelativeDocumentMoniker": "GerarCodigoBanco\\FrmServices.cs",
-              "ToolTip": "D:\\Projetos\\Net\\Workspace\\GerardorCodigoBanco\\GerarCodigoBanco\\FrmServices.cs [Design]",
-              "RelativeToolTip": "GerarCodigoBanco\\FrmServices.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T13:57:31.128Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

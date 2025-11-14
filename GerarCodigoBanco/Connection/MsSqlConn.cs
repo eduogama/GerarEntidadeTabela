@@ -33,9 +33,9 @@ namespace GerarCodigoBanco.Connection
                 command = new SqlCommand("", conn);
             }
 
-            catch (Exception ex)
+            catch
             {
-                throw new Exception("Impossivel estabelecer conexao com a banco de dados", ex);
+                MessageBox.Show("Impossivel estabelecer conexao com a banco de dados");
             }
         }
 
